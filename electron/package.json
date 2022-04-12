@@ -1,0 +1,37 @@
+{
+  "name": "steam-guard",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "pack": "electron-builder --dir",
+    "build": "electron-builder"
+  },
+  "author": "vard05",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^16.0.7",
+    "electron-builder": "^22.14.5",
+    "electron-builder-squirrel-windows": "^23.0.0-alpha.0",
+    "electron-packager": "^15.4.0"
+  },
+  "build": {
+    "appId": "com.vard05.steamguard",
+    "extraResources": [
+      "./css/**",
+      "./js/**"
+    ],
+    "win": {
+      "target": ["nsis"],
+      "icon": "C:/Users/Антон/Desktop/icon1024.ico"
+    },
+    "nsis": {
+      "installerIcon": "C:/Users/Антон/Desktop/icon1024.ico",
+      "uninstallerIcon": "C:/Users/Антон/Desktop/icon1024.ico",
+      "uninstallDisplayName": "steam guard",
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true
+    }
+  }
+}

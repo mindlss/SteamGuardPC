@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <link rel="stylesheet" type="text/css" href="css/loading.css" />
+    <link rel="stylesheet" type="text/css" href="css/fading.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@800&display=swap" rel="stylesheet"> 
+
+    <script src="js/universalFunctions.js" type="text/javascript"></script>
+    <script src="js/script.js" type="text/javascript"></script>
+    <script src="js/codeGenerator.js" type="text/javascript"></script>
+
+    <title>Steam Guard :: Главная</title>
+</head>
+<body>
+    <div id="loading" style="width: 100%; height: 100%; background-color: #101113; position: fixed; top: 0; left: 0;">
+        <div class="gooey">
+            <span class="dot"></span>
+            <div class="dots">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="topnav">
+        <div class="topnav_close" id="CloseApp" onclick="CloseApp()"><img src="./css/images/xmark.svg" alt="X"></div>
+        <div class="topnav_wrap" id="MinApp" onclick="MinApp()"><img src="./css/images/angle-down.svg" alt="_"></div>
+    </div>
+
+    <table class="table" id="table" style="margin-top: 30px;">
+    </table>
+    <table class="table" id="loading-in">
+        <tr class="table_block butt_block hidden" id="+" style="position: relative; height: 2.2em;" onclick="OpenLoginForm()"><td class="buttonAnim"><span class="buttonAnimText">+</span></td></tr>
+    </table>
+</body>
+</html>

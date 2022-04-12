@@ -1,0 +1,49 @@
+@-webkit-keyframes fade {
+    0% {
+        opacity: 1;
+    }
+
+    25% {
+        opacity: 1;
+    }
+
+    75% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+#loading {
+    width: 400px;
+    margin: 0 auto;
+    text-align: center;
+    -webkit-animation: fade 4s;
+    -webkit-animation-fill-mode: both;
+}
+
+@-webkit-keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+
+    25% {
+        opacity: 0;
+    }
+
+    75% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+#loading-in {
+    -webkit-animation: fade-in 4s;
+    -webkit-animation-fill-mode: both;
+}
+
