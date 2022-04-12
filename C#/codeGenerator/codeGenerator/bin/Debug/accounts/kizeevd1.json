@@ -1,0 +1,23 @@
+{
+  "shared_secret": "129arjepjfURltvli9CI9j4wT58=",
+  "serial_number": "4121402882210480776",
+  "revocation_code": "R62997",
+  "uri": "otpauth://totp/Steam:kizeevd1?secret=25XVVLRXVGG7KEMW3PSYXUEI6Y7DAT47&issuer=Steam",
+  "server_time": 1642444525,
+  "account_name": "kizeevd1",
+  "token_gid": "29ea007bbd0d7027",
+  "identity_secret": "BMQ3Z7rJcEaAVwNC3NOR3nVJVc4=",
+  "secret_1": "hXRkynI4PlWRSxjlKOEZDsLuHh8=",
+  "status": 1,
+  "device_id": "android:4bf5fab4-d9f0-fab4-fab4-fab4d9f0043b",
+  "fully_enrolled": false,
+  "Session": {
+    "SessionID": "d12dc8350fe1405fce81f51d",
+    "SteamLogin": "76561198360230833%7C%7CEC8E34497EB6E2EE65A74270F0AA286CD2F588E6",
+    "SteamLoginSecure": "76561198360230833%7C%7C4BC546578E042D846F12508FB35827ABFE97F27E",
+    "WebCookie": "318BEA30E03D0F513C98D97E987C6DD794F27C56",
+    "OAuthToken": "9f2a5162f1d963de7bbf482a1e19ed06",
+    "SteamID": 76561198360230833
+  },
+  "password": "Denisk20032003)"
+}

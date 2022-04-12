@@ -1,0 +1,23 @@
+{
+  "shared_secret": "S9DDd2gDIuGFS1HxAovEoZnnlWY=",
+  "serial_number": "2081110126529316232",
+  "revocation_code": "R27815",
+  "uri": "otpauth://totp/Steam:rustaccountmain1?secret=JPIMG53IAMRODBKLKHYQFC6EUGM6PFLG&issuer=Steam",
+  "server_time": 1642437674,
+  "account_name": "rustaccountmain1",
+  "token_gid": "25fe007bbd4ce360",
+  "identity_secret": "u/sAEaRIj5vYwRT+4reOB4J6d4k=",
+  "secret_1": "XyOe0ScquerXqWL2I822/OnNTxc=",
+  "status": 1,
+  "device_id": "android:3133b98c-a703-b98c-b98c-b98ca703ab8c",
+  "fully_enrolled": false,
+  "Session": {
+    "SessionID": "2a4e6ca1285b3184369ff879",
+    "SteamLogin": "76561199235684207%7C%7C21032EC54247EAA74582F712ADA673A7C630207E",
+    "SteamLoginSecure": "76561199235684207%7C%7C90CA3599CDA9F9F11969E0CB25C7121DAA971124",
+    "WebCookie": null,
+    "OAuthToken": "6c4f99be21e721ccad038237b01027c1",
+    "SteamID": 76561199235684207
+  },
+  "password": "z[>k5Y47-Y!,vrQ"
+}
